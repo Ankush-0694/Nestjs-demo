@@ -3,7 +3,9 @@ import { PrismaService } from "src/prisma/prisma.service";
 
 @Injectable()
 export class AuthService {
-  constructor(private prisma: PrismaService) {}
+  constructor(private prisma: PrismaService) {
+    
+  }
 
   signup(){
     return "I am Signed Up!"
